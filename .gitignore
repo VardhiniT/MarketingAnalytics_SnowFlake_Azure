@@ -1,0 +1,22 @@
+# secrets 
+.env
+
+# environments and caches
+.venv/
+__pycache__/
+.pytest_cache/
+
+# data (large, and not for git)
+data/
+*.csv
+
+# dbt generated files
+dbt/target/
+dbt/logs/
+dbt/dbt_packages/
+
+# Airflow local state
+airflow_home/
+
+# macOS
+.DS_Store
